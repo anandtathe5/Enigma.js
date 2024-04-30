@@ -70,6 +70,99 @@
         .btn:hover {
             background-color: #ff8533;
         }
+        /* Existing CSS styles */
+
+/* New CSS for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Your existing mobile responsiveness styles */
+
+    /* Add animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    section {
+        animation: fadeIn 1s ease; /* Apply fade-in animation to sections */
+    }
+
+    /* Add colorful templates */
+    #overview {
+        background-color: #f9f9f9; /* Light gray background */
+    }
+
+    h1 {
+        color: #007bff; /* Blue header text */
+    }
+
+    p {
+        color: #333; /* Dark text color */
+    }
+
+    ul {
+        list-style: none; /* Remove default list style */
+    }
+
+    li {
+        background-color: #007bff; /* Blue background for list items */
+        color: #fff; /* White text color for list items */
+        padding: 10px; /* Add padding to list items */
+        margin-bottom: 10px; /* Add margin between list items */
+        border-radius: 5px; /* Add border radius to list items */
+    }
+
+    /* Add hover effect to list items */
+    li:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+    /* Add animation to footer */
+    footer {
+        animation: fadeIn 1s ease; /* Apply fade-in animation to footer */
+    }
+}
+/* New CSS for colorful template */
+header {
+    background-color: #4CAF50; /* Green header background */
+}
+
+section {
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+footer {
+    background-color: #333; /* Dark footer background */
+}
+
+h1 {
+    color: #fff; /* White header text */
+}
+
+p {
+    color: #333; /* Dark text color */
+}
+
+ul {
+    list-style: none; /* Remove default list style */
+}
+
+li {
+    background-color: #2196F3; /* Blue background for list items */
+    color: #fff; /* White text color for list items */
+    padding: 10px; /* Add padding to list items */
+    margin-bottom: 10px; /* Add margin between list items */
+    border-radius: 5px; /* Add border radius to list items */
+}
+
+/* Add hover effect to list items */
+li:hover {
+    background-color: #0b7dda; /* Darker blue on hover */
+}
+
     </style>
 </head>
 <body>
